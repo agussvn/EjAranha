@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("!Bienvenido a la aventura de la araña venenosa");
+        System.out.println("!Bienvenido a la aventura de la araña venenosa!");
         System.out.println("¿Cómo se llamará tu araña?");
         Scanner scanner = new Scanner(System.in);
         String nombrearanha = scanner.nextLine();
@@ -25,11 +25,11 @@ public class Main {
             System.out.println(nombrearanha + " Trepa por la espalda del profesor sigilosamente,ha subido 2 metros.");
         } else {
             distanciaRecorrida += 8;
-            System.out.println(nombrearanha + " Se tira y con la mala suerte se cae  cerca de la carretera ");
+            System.out.println(nombrearanha + " Se tira y con la mala suerte se cae cerca de la carretera ");
         }
         System.out.println("\nDecisión 2: " + nombrearanha + " es avistada por un profesor malhumorado ");
         System.out.println("1. Intentar sobrevivir");
-        System.out.println("2. Afrontar al profesor enfafado");
+        System.out.println("2. Afrontar al profesor enfadado");
         System.out.print("Elige (1 o 2): ");
         int decision2 = scanner.nextInt();
 
